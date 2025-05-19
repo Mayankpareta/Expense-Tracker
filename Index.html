@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expence Tracker</title>
+     <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white">
+    <div class="flex justify-center align-center min-h-50 w-full">
+        <div class="md:px-20 px-5 my-20 bg-gray-800">
+            <div class="py-5 text-3xl">
+                <h1>Expence Tracker</h1>
+            </div>
+            <div class="text-black md:flex justify-between ">
+                <input id="expence-name"  class="h-10 rounded" type="text" placeholder="Expence Name">
+                <input id="expence-amount"  class="h-10 ml-2 rounded" type="number" placeholder="Amount">
+                <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 mx-2 rounded">Add Expence</button>
+            </div>
+            <div class="my-4">
+                <h2 class="text-2xl text-center border-b border-gray-700">Expence</h2>
+                <div>
+                    <ul>                       
+                        <!-- <li class="my-3 bg-black">
+                            <div class="flex  py-2 h-12 ">
+                                <div class="flex w-full">
+                                <h4 class="mx-2">ps5 -</h4>
+                                <h4>$500</h4>
+                                </div>
+                                <button class="bg-red-500 h-7 hover:bg-red-700 text-white font-bold  px-4 mx-2 rounded">Delete</button>
+                            </div>
+                        </li> -->
+                    </ul>
+                </div>
+                <h4 class="my-10 text-center text-xl">Total Expence : 0$</h4>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js" ></script>
+</body>
+</html>
